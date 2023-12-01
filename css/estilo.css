@@ -1,0 +1,267 @@
+/* 
+	ALUMNO: Kike Lazcano Carbonell
+	FECHA: 24/11/2023
+	MODULO: LMSI
+	UD: 02
+	TAREA EVALUATIVA: 02
+	AUTOEVALUACIÓN:
+	DESCRIPCIÓN: En esta actividad se pide desarrollar el sitio web diseñado en la primera tarea de evaluación.  
+*/
+/*Fondo y color general de todas las paginas*/
+body {
+    background-image: url(../imagenes/fondo2.jpg) ;
+    font-family: arial;
+    color: red;
+}
+/*Menu de todas las paginas*/
+nav, ul {
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+nav, li {
+    padding: 20px;
+    background-color: rgb(21, 255, 0);
+    text-decoration: none;
+    color: rgb(0, 255, 170);
+    margin-right: 7px;
+}
+li:hover {
+    background: rgb(174, 0, 255);
+}
+nav {
+    background-color: rgb(0, 217, 255);
+    padding: 10px;
+}
+/*h2 de todas las paginas*/
+.titulo1, .titulo6, .titulo7, .titulo10, .titulo11 {
+    text-align: center;
+    text-decoration: underline;
+}
+.titulo2 {
+    color: white;
+    font-weight: bold;
+    padding: 25px;
+    text-align: center;
+    font-size: 60px;
+    background-color: red;
+}
+.titulo3, .titulo4, .titulo5 {
+    background: blue;
+    color: black;
+    font-weight: bold;
+    margin: 5px 5px 8px;
+    text-align: center;
+    font-size: 60px;
+    padding: 25px;
+}
+.titulo8, .titulo9 {
+    color: white;
+    font-weight: bold;
+    padding: 25px;
+    text-align: center;
+    font-size: 60px;
+}
+.titulo8{
+    background-color: green;
+}
+.titulo9 {
+    background-color: aqua;
+}
+/*Textos de las paginas acción,comedia y terror*/
+.text1, .text2, .text3, .text4, .text5 {
+    font-family: Arial;
+    font-size: 19px;
+    margin: 5px;
+}
+.text2 {
+    padding: 10px;
+}
+.text5, .parrafo1, .text6, .titulo10, .titulo11 {
+    color: aqua;
+}
+.titulo6, .text3, .parrafo2, .text4, .titulo7 {
+    color: green;
+}
+
+/*contenedores de la pagina de inicio*/
+.caja1 {
+    background-color: white;
+    width: 900px;
+    height: 700px;
+    font-family: Arial;
+    font-size: 19px;
+    padding: 30px;
+    float: left;
+    margin: 30px;
+    text-align: center;
+}
+.caja2 {
+    background-color: goldenrod;
+    width: 700px;
+    height: 250px;
+    font-family: Arial;
+    font-size: 19px;
+    padding: 30px 15px;
+    float: right;
+    margin: 50px;
+}
+.caja3 {
+    background-color: blue;
+    width: 700px;
+    height: 250px;
+    font-family: Arial;
+    font-size: 19px;
+    padding: 30px 15px;
+    float: right;
+    margin: 50px;
+    text-align: center;
+}
+/*imagenes de las diferentes paginas*/
+.ima1 {
+    width: 700px;
+    height: 400px;
+    float: left;
+    padding: 5px;
+    margin: 2px;
+}
+.ima2 {
+    width: 150px;
+    height: 100px;
+    float: left;
+}
+.ima3 {
+    width: 100px;
+    float: left;
+}
+.ima4 {
+    width: 150px;
+    height: 100px;
+    float: left;
+}
+/*Posicionamiento formulario*/
+.formulario, .formulario2 {
+    display: grid;
+    place-items: center;
+    font-size: 35px;
+}
+.nom {
+    padding: 5px;
+}
+.correo {
+    padding: 7px;
+}
+/*buscador de la pagina*/
+.buscar {
+    position: absolute;
+    padding: 5px;
+}
+.buscar input {
+    width: 240px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    border: 1px solid silver;
+    border-radius: 30px;
+}
+/*botones de ver trailer ahora*/
+.boton1, .boton2, .boton3, .boton4, .boton5, .boton6, .atras1 {
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+}
+.boton1, .boton2 {
+    color: black;
+    background: red;
+}
+.boton5, .boton6 {
+    background-color: aqua;
+    color: white;
+}
+.boton3, .boton4 {
+    background-color: green;
+    color: white;
+}
+.atras1{
+    background-color: white;
+}
+.trailer1 {
+    background-color: red;
+}
+/*boton de la pagina de registro */
+.registro, .enviar {
+    display: flex;
+    justify-content: center;
+}
+.btn, .btn2 {
+    background-color: red;
+    width: 200px;
+    height: 30px;
+}
+/*botones de la pagina categorias */
+.categoria {
+    display: grid;
+    justify-content: center;
+    background: red;
+    padding: 25px;
+    font-family: Arial;
+    font-size: 40px;
+}
+.categoria1, .categoria2, .categoria3 {
+    display: grid;
+    place-items: center;
+    padding: 25px;
+    margin-top: 50px;
+    font-family: Arial;
+    font-size: 40px;
+}
+.categoria1{
+    background-color: rgb(42, 165, 52);
+}
+.categoria2{
+    background-color: aquamarine;
+}
+.categoria3{
+    background-color: rgb(46, 43, 226);
+    margin-top: 150px;
+}
+.div, a {
+    text-decoration: none;
+    color: black;
+    width: 1875px;
+    text-align: center;
+}
+/*Pagina noticias*/
+.ima5 {
+    width: 300px;
+    float: left;
+}
+.tom {
+    font-size: 50px;
+}
+.seccion {
+    background-color: white;
+}
+h2 {
+    text-align: center;
+}
+/*Posicionamiento y tamaño de los videos de la pagina trailers*/
+.dead{
+    margin: 35px;
+    width: 500px;
+    height: 300px; 
+}
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+h3 {
+    text-align: center;
+}
+.youtube {
+    margin: 35px;
+    width: 500px;
+    height: 300px; 
+}
